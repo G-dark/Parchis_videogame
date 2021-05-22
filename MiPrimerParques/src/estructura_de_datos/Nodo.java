@@ -5,6 +5,10 @@ public class Nodo {
     private int casilla;
     private int color;
     private String usuario;
+    public float[] position = new float[2];
+    public float[] position2 = new float[2];
+    public float[] position3 = new float[2];
+     public float[] position4 = new float[2];
 
     private Nodo link;
 
